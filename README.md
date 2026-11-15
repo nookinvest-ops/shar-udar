@@ -6,7 +6,7 @@
 
 ## Геймплей
 
-[![Кадр из игры «Шар-удар»](media/gameplay-poster.jpg)](media/gameplay.mp4)
+[![Кадр из игры «Охота»](media/gameplay-poster.jpg)](media/gameplay.mp4)
 
 [Смотреть геймплей со звуком (24 секунды, MP4)](media/gameplay.mp4)
 
@@ -31,15 +31,15 @@
 
 Для установки нужен VR-шлем с поддержкой установки APK через ADB. Для игры нужны два контроллера.
 
-**[Скачать APK тестовой версии](https://github.com/nookinvest-ops/shar-udar/releases/download/v1.0.0/Shar-Udar-2026-11-14.apk)** · [Страница релиза](https://github.com/nookinvest-ops/shar-udar/releases/tag/v1.0.0)
+**[Скачать APK тестовой версии](https://github.com/nookinvest-ops/shar-udar/releases/download/v1.0.0/Ohota.apk)** · [Страница релиза](https://github.com/nookinvest-ops/shar-udar/releases/tag/v1.0.0)
 
 1. Включи режим разработчика и USB-отладку по инструкции для своего VR-шлема. Подключи шлем к компьютеру кабелем USB с передачей данных и подтверди запрос отладки в шлеме.
 2. Установи [Android SDK Platform-Tools](https://developer.android.com/tools/releases/platform-tools). Открой терминал в папке с APK и выполни:
 
    ```sh
-   adb install -r Shar-Udar-2026-11-14.apk
+   adb install -r Ohota.apk
    ```
 
-3. Найди **«Шар-удар»** в библиотеке приложений VR-шлема. Игра может появиться в разделе **«Неизвестные источники»**.
+3. Найди **«Охота»** в библиотеке приложений VR-шлема. Игра может появиться в разделе **«Неизвестные источники»**.
 
 © 2026 @stas_lu · [Авторы и лицензии ресурсов](THIRD_PARTY_NOTICES.txt)
